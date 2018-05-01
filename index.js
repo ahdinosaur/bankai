@@ -112,6 +112,7 @@ function Bankai (entry, opts) {
     log: this.log,
     watchers: {},
     entry: entry,
+    plugins: opts.plugins,
     opts: opts,
     count: {
       assets: 0,
